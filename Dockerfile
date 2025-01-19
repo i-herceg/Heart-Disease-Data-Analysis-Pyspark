@@ -31,8 +31,8 @@ RUN curl -O https://archive.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SP
 ENV SPARK_HOME=/opt/spark
 ENV PATH=$SPARK_HOME/bin:$PATH
 
-# Instalacija PySparka, pandas, Jupyter i drugih Python paketa
-RUN pip3 install pyspark pandas jupyter
+# Instalacija PySparka, Jupyter i drugih Python paketa
+RUN pip3 install pyspark jupyter
 
 # Postavljanje radnog direktorija u kontejneru
 WORKDIR /app
