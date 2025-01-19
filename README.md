@@ -67,7 +67,7 @@ Sensitive information like names and social security numbers has been replaced w
 
 3. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/i-herceg/Heart-Disease-Data-Analysis-Pyspark.git
    cd HeartDisease-Analysis
    ```
 
